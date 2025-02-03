@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@shadcn/ui": "^0.0.4",
+    "@vercel/analytics": "^1.4.1",
     "axios": "^1.7.9",
     "mongodb": "^6.13.0",
     "mongoose": "^8.9.6",
