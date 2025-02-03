@@ -2,6 +2,7 @@
 
 import React, { useEffect, useState } from "react";
 import axios from "axios";
+import { Analytics } from "@vercel/analytics/react"
 import "./task-manager.css"; // Updated CSS file
 
 const TaskManager = () => {
