@@ -155,7 +155,10 @@ body {
 }
 
 /* Responsive */
-@media (max-width: 480px) {
+@media (max-width: 768px) {
+  .container{
+    margin-left:0px;
+  }
   .task-container {
     padding: 15px;
   }
@@ -184,7 +187,8 @@ body {
 .container {
   display: flex;
   flex-direction: column; /* Default for smaller devices */
-  padding: 20px; /* Add padding to the container */
+  padding: 10px; /* Add padding to the container */
+  padding-right:70px;
 }
 
 /* Media query for larger devices */
